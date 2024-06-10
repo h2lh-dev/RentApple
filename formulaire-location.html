@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulaire location Rent'Apple</title>
+    <link rel="shortcut icon" type="image/png" href="img/formulaire/logo.png">
+	<link rel='stylesheet' type='text/css' href='css/formulaire.css'>
+</head>
+<body>
+	<nav>
+        <a href="index.html"><img src="img/formulaire/logoblanc.png" alt="logo_apple"></a>
+        <a href="covoiturage.html">Co-Voiturage</a>
+        <a href="location-tesla.html">Location Tesla</a>
+        <a href="partenariat.html">Partenariat</a>
+        <a href="contacte.html">Nous contacter</a>
+        <a href="compte.html"><img src="img/formulaire/compte.png" alt="compte"></a>
+    </nav>
+
+    <header>
+        <h1>Formulaire Location Tesla</h1>
+    </header>
+
+    <section>
+        <form action="confirmation-location.html">
+        <div>
+            <label for="nom"> Nom : <span id="required-nom"></span></label>
+            <input type="text" name="nom" minlength="5" maxlength="15">
+        </div>
+        <div>
+            <label for="prenom"> Prénom : <span id="required-prenom"></span></label>
+            <input type="text"  name="prenom" minlength="5" maxlength="15">
+        </div>
+        <div>
+            <label for="tel">Numéro de téléphone : <span id="required-tel"></span></label>
+            <input type="number" name="tel">
+        </div>
+        <div>
+            <label for="mail"> Adresse-Mail : <span id="required-mail"></span></label>
+            <input type="text" name="adresse-mail">
+        </div>
+        <div>
+            <label for="voiture">Quelle Tesla voulez-vous ?<span id="required-voiture"></span></label>
+        <select name="véhicule" id="véhicule-select" >
+            <option value="" >--Choisissez une option--</option>
+            <option value="Tesla model X">Tesla model X</option>
+            <option value="Tesla model Y">Tesla model Y</option>
+            <option value="Tesla model 3">Tesla model 3</option>
+        </select>
+        </div>
+        <div>
+            <label for="Jour">Quel jour voulez-vous réservez le véhicule ? <span id="required-jour">*</span></label>
+            <input type="date" required>
+        </div>
+        <div>
+            <label for="Heure">Pour quelle heure voulez-vous réserver le véhicule ? <span id="required-heure"></span></label>
+            <input type="time" required>
+        </div>
+        <div>
+            <button type="submit">Envoyer le formulaire</button>
+        </div>
+        </form>
+    </section>
+    <footer>
+        <p> © 2023 Rent'Apple. Créé par DESMONS Hugo, ANTOINE Maxence et BROUCKE Lucas.</p>
+        <p>Location de véhicule Tel: 07 67 92 59 80.</p>
+        <a href="condition.html">Condition de vente</a>
+        <a href="politique.html">Politique de confidentialité</a>
+        <a href="mention.html">Mention légales</a>
+    </footer>
+</body>

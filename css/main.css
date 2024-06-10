@@ -1,0 +1,136 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url("../img/index/background.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 100%;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+nav img{
+    width: 40px;
+    height: 40px;
+}
+
+nav{
+    background-color: black;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: static;
+    display: flex;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    justify-content: space-around;
+    z-index: 1;
+    border-bottom: solid white 4px;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+nav a:hover{
+    background-color: darkgray;
+}
+
+section,section h1,section p{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color:white;
+}
+
+section section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+section section>img{
+    width: 20%;
+    height: 100%;
+}
+
+
+
+.accueil{
+    position: relative;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+}
+
+.accueil a{
+    background-color: black;
+    text-align: center;
+    font-size: 75%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 9px;
+    border: solid white 1px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+.accueil a:hover{
+    background-color: darkgray;
+}
+
+
+.accueil h1{
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    border: solid black 3px;
+    border-radius: 15px;
+}
+
+.accueil h1:hover{
+    background-color: darkgray;
+}
+
+.accueil p{
+    text-align: center;
+    font-size: 20px;
+    background-color: darkgray;
+    border: solid black 4px;
+    color: black;
+}   
+
+footer a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    justify-content: space-around;
+    z-index: 1;
+    color: white;
+    bottom: 0;
+}
